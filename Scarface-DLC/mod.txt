@@ -3,11 +3,12 @@
   "description": "Unlocks the discontinued Scarface DLC, without affecting existing purchased DLC",
   "author": "Kai",
   "contact": "https://github.com/jetkai",
+  "image": "logo.png",
   "version": "1.0",
   "hooks": [
     {
       "hook_id": "lib/managers/dlcmanager",
-      "script_path": "scarface_dlc_unlocker.lua"
+      "script_path": "mod/scarface_dlc_unlocker.lua"
     }
   ],
   "updates": [
