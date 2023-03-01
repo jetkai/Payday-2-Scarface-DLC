@@ -1,0 +1,21 @@
+{
+  "name": "Scarface-DLC",
+  "description": "Unlocks the discontinued Scarface DLC, without affecting existing purchased DLC",
+  "author": "Kai",
+  "contact": "https://github.com/jetkai",
+  "version": "1.0",
+  "hooks": [
+    {
+      "hook_id": "lib/managers/dlcmanager",
+      "script_path": "scarface_dlc_unlocker.lua"
+    }
+  ],
+  "updates": [
+    {
+      "identifier": "Scarface-DLC",
+      "host": {
+        "meta": "https://raw.githubusercontent.com/jetkai/Payday-2-Scarface-DLC/main/metadata.json"
+      }
+    }
+  ]
+}
